@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ural_Hydraulic.MainPage">
+
+    <RelativeLayout>
+        <!--<Image Source="MainPageBackground.png"
+       Aspect="AspectFit"
+       RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+        Property=Width, Factor=0.1, Constant=-50}"
+       RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+        Property=Height, Factor=0}"></Image>-->
+        <ImageButton x:Name="buttonf" 
+                     Aspect="AspectFit"
+                     Clicked="buttonf_Clicked"
+                     Source="OrderButton.png" 
+                     ScaleX="0.6" 
+                     ScaleY="0.6"
+                     CornerRadius="33"
+                     HorizontalOptions="Center"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.45}"></ImageButton>
+        <ImageButton x:Name="buttons" 
+                     Aspect="AspectFill"
+                     Source="WebButton.png" 
+                     Clicked="buttons_Clicked"
+                     ScaleX="0.6"
+                     ScaleY="0.6"
+                     CornerRadius="33"
+                     HorizontalOptions="Center"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.6}"></ImageButton>
+        <ImageButton x:Name="buttont"
+                     Clicked="buttont_Clicked"
+                     Source="ContactsButton.png"
+                     ScaleX="0.6"
+                     ScaleY="0.6"
+                     CornerRadius="33"
+                     HorizontalOptions="Center"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.75}"></ImageButton>
+    </RelativeLayout>
+</ContentPage>

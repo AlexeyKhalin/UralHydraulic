@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ural_Hydraulic.OrderPage">
+
+    <ScrollView
+     VerticalScrollBarVisibility="Never"
+     Grid.Row="1" 
+     Orientation="Vertical"
+     Grid.Column="0" 
+     Grid.ColumnSpan="3" 
+     VerticalOptions="FillAndExpand">
+
+
+        <RelativeLayout x:Name="MainLayout"
+                    BackgroundColor="#404040"
+                        HeightRequest="3300"
+                        VerticalOptions="Fill">
+
+            <BoxView RelativeLayout.WidthConstraint="412"
+               RelativeLayout.HeightConstraint="60"
+               RelativeLayout.XConstraint="0"
+               RelativeLayout.YConstraint="0"
+               x:Name="FirstBoxView"
+               Color="Black"></BoxView>
+
+            <Label Text="Формула шланга"
+               TextColor="#A78E4C"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.35, Constant=-50}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.018}"
+               FontSize="27"></Label>
+
+            <ImageButton Source="cart_icon_2.jpg"
+               Clicked="CartButton_Clicked"
+               x:Name="CartButton"
+               RelativeLayout.WidthConstraint="60"
+               RelativeLayout.HeightConstraint="60"
+                    
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.860}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0}"></ImageButton>
+
+            <Image Source="Main_Graphic.png"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.017}"></Image>
+
+            <!--<Image Source="Gradient.jpg"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.384}"></Image>-->
+
+            <Image Source="Collage.png"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.54}"></Image>
+
+            <!--<Image Source="FirstHalf.jpg"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.548}"></Image>
+
+            <Image Source="SecondHalf.jpg"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.773}"></Image>-->
+
+            <Label Text="РУКАВ"
+               TextColor="#A78E4C"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.059}"
+               FontSize="35"></Label>
+
+            <Label Text="Тип резины"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.08}"
+               FontSize="25"></Label>
+
+            <Picker x:Name = "Type_Picker" 
+               Title="                    "
+               TextColor="White"
+               SelectedIndexChanged="Type_Selected"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.092}">
+                <Picker.Items>
+                    <x:String>1SN</x:String>
+                    <x:String>2SN</x:String>
+                    <x:String>4SP</x:String>
+                    <x:String>4SH</x:String>
+                    <x:String>R13</x:String>
+                    <x:String>R15</x:String>
+                    <x:String>R7</x:String>
+                    <x:String>PTFE</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="Dy(Внутрений диаметр)"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.112}"
+               FontSize="25"></Label>
+
+            <Picker x:Name = "Dy_Picker" 
+               Title="                    "
+               TextColor="White"
+               SelectedIndexChanged="Dy_Selected"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.124}">
+                <Picker.Items>
+                    <x:String>6,4</x:String>
+                    <x:String>7,9</x:String>
+                    <x:String>9,5</x:String>
+                    <x:String>12,7</x:String>
+                    <x:String>15,9</x:String>
+                    <x:String>19</x:String>
+                    <x:String>25,4</x:String>
+                    <x:String>31,8</x:String>
+                    <x:String>38,1</x:String>
+                    <x:String>50,8</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="Давление(MPa): "
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.154}"
+               FontSize="25"></Label>
+
+            <Label x:Name="PressureLabel"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.6}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.154}"
+               FontSize="25"></Label>
+
+            <Label Text="Длина(ММ)"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.176}"
+               FontSize="25"></Label>
+
+            <Entry x:Name = "Length_Entry"
+               Placeholder="                    "
+               TextColor="White"
+               Keyboard="Numeric"
+               Completed="Length_Selected"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.196}"></Entry>
+
+            <Label Text="ПАРАМЕТРЫ ФИТИНГОВ"
+               TextColor="#A78E4C"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.22}"
+               FontSize="35"></Label>
+
+            <Label Text="Тип соединения первого фитинга"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.26}"
+               FontSize="21.5"></Label>
+
+            <Picker x:Name = "FitingOne_Picker" 
+               Title="                                                                              "
+               TextColor="White"
+               SelectedIndexChanged="FitingOne_Selected"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.03}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.272}">
+                <Picker.Items>
+                    <x:String>DK</x:String>
+                    <x:String>DKO-L</x:String>
+                    <x:String>DKO-S</x:String>
+                    <x:String>BSP</x:String>
+                    <x:String>NPTF</x:String>
+                    <x:String>BANJO</x:String>
+                    <x:String>ORFS</x:String>
+                    <x:String>JIC</x:String>
+                    <x:String>SFL</x:String>
+                    <x:String>SFS</x:String>
+                    <x:String>JIS</x:String>
+                    <x:String>DKI</x:String>
+                    <x:String>Фитинг для моек высокого давления</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="Угол фитинга"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.292}"
+               FontSize="25"></Label>
+
+            <Entry x:Name = "AngleOne_Entry"
+               Placeholder="                    "
+               MaxLength="3"
+               TextColor="White"
+               Keyboard="Numeric"
+               Completed="AngleOne_Selected"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.304}"></Entry>
+
+            <Label Text="Соотношение Резьба/Диаметр"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.324}"
+               FontSize="23"></Label>
+
+            <Entry x:Name = "RatioOne_Entry"
+               Placeholder="                    "
+               TextColor="White"
+               Keyboard="Numeric"
+               Completed="RatioOne_Selected"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.336}"></Entry>
+
+            <Label Text="ВТОРОЙ ФИТИНГ"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.356}"
+               FontSize="25"></Label>
+
+            <Label Text="Тип соединения второго фитинга"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.376}"
+               FontSize="21.5"></Label>
+
+            <Picker x:Name = "FitingTwo_Picker" 
+               Title="                                                                              "
+               TextColor="White"
+               SelectedIndexChanged="FitingTwo_Selected"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.03}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.388}">
+                <Picker.Items>
+                    <x:String>DK</x:String>
+                    <x:String>DKO-L</x:String>
+                    <x:String>DKO-S</x:String>
+                    <x:String>BSP</x:String>
+                    <x:String>NPTF</x:String>
+                    <x:String>BANJO</x:String>
+                    <x:String>ORFS</x:String>
+                    <x:String>JIC</x:String>
+                    <x:String>SFL</x:String>
+                    <x:String>SFS</x:String>
+                    <x:String>JIS</x:String>
+                    <x:String>DKI</x:String>
+                    <x:String>Фитинг для моек высокого давления</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="Угол фитинга"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.408}"
+               FontSize="25"></Label>
+
+            <Entry x:Name = "AngleTwo_Entry"
+               Placeholder="                    "
+               MaxLength="3"
+               TextColor="White"
+               Keyboard="Numeric"
+               Completed="AngleTwo_Selected"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.42}"></Entry>
+
+            <Label Text="Соотношение Резьба/Диаметр"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.44}"
+               FontSize="23"></Label>
+
+
+            <Entry x:Name = "RatioTwo_Entry"
+               Placeholder="                    "
+               TextColor="White"
+               Keyboard="Numeric"
+               Completed="RatioTwo_Selected"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.452}"></Entry>
+
+            <ImageButton Source="Comment.png"
+                Scale="0.4"
+                CornerRadius="30"
+                Pressed="AddComment_Clicked"
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=-0.22, Constant=-10}"
+                RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.474}"
+                ScaleX="1"
+                ScaleY="1"></ImageButton>
+
+            <ImageButton Source="AddToCart.png"
+                Scale="0.4"
+                CornerRadius="30"
+                Pressed="AddToCartButton_Clicked"
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.25, Constant=-10}"
+                RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.474}"
+                ScaleX="1"
+                ScaleY="1"></ImageButton>
+
+            <ImageButton Source="CatalogButton.png"
+                Scale="0.4"
+                CornerRadius="30"
+                Pressed="Catalog_Clicked"
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.25, Constant=-10}"
+                RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.495}"
+                ScaleX="1"
+                ScaleY="1"></ImageButton>
+
+            <Label Text="Справка"
+               TextColor="#A78E4C"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.4, Constant=-45}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.52}"
+               FontSize="40"></Label>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <!--<Label Text="Фитигнги"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.37}"
+               FontSize="25"></Label>
+
+            <Label Text="Рукав"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.62}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.37}"
+               FontSize="25"></Label>
+
+            <Label Text="Тип соединения"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.1}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.45}"
+               FontSize="15"></Label>
+
+            <Label Text="Рабочая температура"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.55}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.45}"
+               FontSize="15"></Label>
+
+            <Picker x:Name = "Type_Picker" 
+               Title="                    "
+               SelectedIndexChanged="Type_Selected"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.1}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.47}">
+
+                <Picker.Items>
+                    <x:String>DK</x:String>
+                    <x:String>DKMF</x:String>
+                    <x:String>DKF</x:String>
+                    <x:String>ORES</x:String>
+                    <x:String>JIC</x:String>
+                    <x:String>JIS</x:String>
+                    <x:String>SLF</x:String>
+                    <x:String>SLFS</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Entry Placeholder = "                    "
+               Completed="Temperature_Selected"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.6}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.473}"></Entry>
+
+            <Label Text="Соотношение Резьба/Диаметр"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.02}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.55}"
+               FontSize="15"></Label>
+
+            <Label Text="Тип резины"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.65}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.55}"
+               FontSize="15"></Label>
+
+            <Entry Placeholder = "                         "
+               Completed="Ratio_Selected"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.1}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.58}"></Entry>
+
+            <Picker x:Name = "Rubber_Picker" 
+               Title="                    "
+               SelectedIndexChanged="Rubber_Selected"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.6}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.578}">
+
+                <Picker.Items>
+                    <x:String>1SN</x:String>
+                    <x:String>2SN</x:String>
+                    <x:String>4SP/4SH</x:String>
+                    <x:String>R13/R15</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="Угол загиба 1-го фитинга"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.02}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.66}"
+               FontSize="15"></Label>
+
+            <Label Text="Рабочее давление (MPa)"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.53}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.66}"
+               FontSize="15"></Label>   
+
+            <Entry Placeholder = "                    "
+               Completed="AngleOne_Selected"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.1}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.68}"></Entry>
+
+            <Entry Placeholder = "                    "
+               Completed="Pressure_Selected"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.6}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.68}"></Entry>
+
+            <Label Text="Угол загиба 2-го фитинга"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.02}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.76}"
+               FontSize="15"></Label>
+
+            <Entry Placeholder = "                    "
+               Completed="AngleTwo_Selected"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.1}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.78}"></Entry>
+
+            <Label Text="Разворот фитингов относительно друг друга"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.05}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.86}"
+               FontSize="15"></Label>
+
+            <Entry Placeholder = "                    "
+               Completed="Reversal_Selected"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.1}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.88}"></Entry>
+
+            <Entry Placeholder="Кол-во штук"
+               Completed="AmountEntry_Completed"
+               PlaceholderColor="LightGray"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.1}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.94}"
+               ScaleX="1.35"
+               ScaleY="1.35"></Entry>
+            <Button Text="Добавить в корзину"
+                Pressed="ButtonAddToCartClicked"
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.55, Constant=-10}"
+                RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.94}"
+                ScaleX="1"
+                ScaleY="1"></Button>-->
+</ContentPage>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ural_Hydraulic.SendPage">
+    <RelativeLayout
+        BackgroundColor="#404040">
+        <BoxView RelativeLayout.WidthConstraint="412"
+               RelativeLayout.HeightConstraint="60"
+               RelativeLayout.XConstraint="0"
+               RelativeLayout.YConstraint="0"
+               x:Name="FirstBoxView"
+               Color="Black"></BoxView>
+
+        <!--<ImageButton Source="cart_icon2.jpg"
+               Clicked="BackButton_Clicked"
+               x:Name="BackButton"
+               RelativeLayout.WidthConstraint="60"
+               RelativeLayout.HeightConstraint="60"
+                    
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.860}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0}"></ImageButton>-->
+
+        <Label Text="Отправка заказа"
+               TextColor="#A78E4C"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.2, Constant=-50}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.02}"
+               FontSize="27"></Label>
+
+
+        <Label x:Name="NameDisplay"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.2, Constant=-50}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.1}"
+               FontSize="24"></Label>
+
+        <Entry TextChanged="NameChanged"
+               TextColor="White"
+               PlaceholderColor="White"
+               Placeholder="Ваше имя                        "
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.2, Constant=-50}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent,
+               Property=Height, Factor=0.15}"></Entry>
+
+        <Label x:Name="OrgDisplay"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.2, Constant=-50}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.25}"
+               FontSize="24"></Label>
+
+        <Entry TextChanged="OrgChanged"
+               TextColor="White"
+               PlaceholderColor="White"
+               Placeholder="Организация(необязательное поле)"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.2, Constant=-50}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.3}"></Entry>
+
+
+        <Label x:Name="MailDisplay"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.2, Constant=-50}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.4}"
+               FontSize="24"></Label>
+
+        <Entry TextChanged="MailChanged"
+               TextColor="White"
+               PlaceholderColor="White"
+               Placeholder="Контактный почтовый адрес"
+               Keyboard="Email"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.2, Constant=-50}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.45}"></Entry>
+
+        <Label x:Name="PhoneDisplay"
+               TextColor="White"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.2, Constant=-50}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.55}"
+               FontSize="24"></Label>
+
+        <Entry TextChanged="PhoneChanged"
+               TextColor="White"
+               PlaceholderColor="White"
+               Placeholder="Контактный номер телефона"
+               Keyboard="Telephone"
+               RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.2, Constant=-50}"
+               RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.6}"></Entry>
+
+        <ImageButton
+                Source="SendButton.jpg"
+                Scale="0.4"
+                CornerRadius="30"
+                x:Name="SendButton"
+                Pressed="SENDButton_Clicked"
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=0.25, Constant=-10}"
+                RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.8}"
+                ScaleX="1"
+                ScaleY="1"></ImageButton>
+
+        <ImageButton
+                Source="CheckButton.jpg"
+                Scale="0.4"
+                CornerRadius="30"
+                x:Name="CheckButton"
+                Pressed="CheckButton_Clicked"
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Width, Factor=-0.22, Constant=-10}"
+                RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.8}"
+                ScaleX="1"
+                ScaleY="1"></ImageButton>
+
+    </RelativeLayout>
+</ContentPage>

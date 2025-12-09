@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ural_Hydraulic.LinkPage">
+    <ContentPage.Content>
+        <RelativeLayout
+            BackgroundColor="#404040">
+            <Label Text="Контакты"
+                   FontSize="30"
+                   TextColor="#A78E4C"
+                   RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                   Property=Width, Factor=0.05}"
+                   RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                   Property=Height, Factor=0.03}">
+            </Label>
+
+            <Label
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                   Property=Width, Factor=0.06}"
+                   RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                   Property=Height, Factor=0.15}">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span
+                            Text="Офис: "
+                            FontSize="18">
+                        </Span>
+                        <Span
+                            Text="+7 (343) 286 27 56"
+                            TextColor = "LightBlue"
+                            TextDecorations="Underline"
+                            FontSize="18">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding OfficeNumberClicked}"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                        <Span
+                            Text=", "
+                            FontSize="18">
+                        </Span>
+                        <Span
+                            Text="info@ug96.ru"
+                            TextColor = "LightBlue"
+                            TextDecorations="Underline"
+                            FontSize="18">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding OfficeMailClicked}"
+                                           />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Label
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                   Property=Width, Factor=0.06}"
+                   RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                   Property=Height, Factor=0.25}">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span
+                            Text="Петр: "
+                            FontSize="18">
+                        </Span>
+                        <Span
+                            Text="+7 (922) 225 65 69"
+                            TextColor = "LightBlue"
+                            TextDecorations="Underline"
+                            FontSize="18">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding HPSNumberClicked}"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                        <Span
+                            Text=", "
+                            FontSize="18">
+                        </Span>
+                        <Span
+                            Text="hps@ug96.ru"
+                            TextColor = "LightBlue"
+                            TextDecorations="Underline"
+                            FontSize="18">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding HPSMailClicked}"
+                                           />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Label
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                   Property=Width, Factor=0.06}"
+                   RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                   Property=Height, Factor=0.35}">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span
+                            Text="Сергей: "
+                            FontSize="18">
+                        </Span>
+                        <Span
+                            Text="+7 (919) 366 54 749"
+                            TextColor = "LightBlue"
+                            TextDecorations="Underline"
+                            FontSize="18">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding SergNumberClicked}"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                        <Span
+                            Text=", "
+                            FontSize="18">
+                        </Span>
+                        <Span
+                            Text="tsn@ug96.ru"
+                            TextColor = "LightBlue"
+                            TextDecorations="Underline"
+                            FontSize="18">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding SergMailClicked}"
+                                           />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Label
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                   Property=Width, Factor=0.06}"
+                   RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                   Property=Height, Factor=0.45}">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span
+                            Text="Даниил: "
+                            FontSize="18">
+                        </Span>
+                        <Span
+                            Text="+7 (982) 716 0 176"
+                            TextColor = "LightBlue"
+                            TextDecorations="Underline"
+                            FontSize="18">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding DanNumberClicked}"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                        <Span
+                            Text=", "
+                            FontSize="18">
+                        </Span>
+                        <Span
+                            Text="bdi@ug96.ru"
+                            TextColor = "LightBlue"
+                            TextDecorations="Underline"
+                            FontSize="18">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding DanMailClicked}"
+                                           />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Label
+                Text="Разработчик: Халин А.П."
+                FontSize="15"
+                TextColor="Gray"
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                   Property=Width, Factor=0.26}"
+                RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, 
+                Property=Height, Factor=0.96}">
+            </Label>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>

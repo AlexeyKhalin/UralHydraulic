@@ -1,0 +1,36 @@
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\Ural Hydraulic.csproj.AssemblyReference.cache
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\Ural Hydraulic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\Ural Hydraulic.AssemblyInfoInputs.cache
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\Ural Hydraulic.AssemblyInfo.cs
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\Ural Hydraulic.csproj.CoreCompileInputs.cache
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\Ural Hydraulic.dll
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\refint\Ural Hydraulic.dll
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\Ural Hydraulic.pdb
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\bin\Debug\netstandard2.0\Ural Hydraulic.deps.json
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\bin\Debug\netstandard2.0\Ural Hydraulic.dll
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\bin\Debug\netstandard2.0\ref\Ural Hydraulic.dll
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\bin\Debug\netstandard2.0\Ural Hydraulic.pdb
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\LinkPage.xaml.g.cs
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\OrderPage.xaml.g.cs
+C:\Users\Алексей\Desktop\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\SendPage.xaml.g.cs
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\bin\Debug\netstandard2.0\Ural Hydraulic.deps.json
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\bin\Debug\netstandard2.0\Ural Hydraulic.dll
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\bin\Debug\netstandard2.0\ref\Ural Hydraulic.dll
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\bin\Debug\netstandard2.0\Ural Hydraulic.pdb
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\Ural Hydraulic.csproj.AssemblyReference.cache
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\Ural Hydraulic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\LinkPage.xaml.g.cs
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\OrderPage.xaml.g.cs
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\SendPage.xaml.g.cs
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\Ural Hydraulic.AssemblyInfoInputs.cache
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\Ural Hydraulic.AssemblyInfo.cs
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\Ural Hydraulic.csproj.CoreCompileInputs.cache
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\Ural Hydraulic.dll
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\refint\Ural Hydraulic.dll
+C:\Users\Алексей\Desktop\Ural Hydraulic - чистый\Ural Hydraulic\Ural Hydraulic\Ural Hydraulic\obj\Debug\netstandard2.0\Ural Hydraulic.pdb

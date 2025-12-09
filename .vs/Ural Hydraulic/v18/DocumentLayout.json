@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|c:\\users\\alexey\\desktop\\uralhydraulic\\ural hydraulic\\ural hydraulic\\linkpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|solutionrelative:ural hydraulic\\ural hydraulic\\linkpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|c:\\users\\alexey\\desktop\\uralhydraulic\\ural hydraulic\\ural hydraulic\\mainpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|solutionrelative:ural hydraulic\\ural hydraulic\\mainpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|c:\\users\\alexey\\desktop\\uralhydraulic\\ural hydraulic\\ural hydraulic\\orderpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|solutionrelative:ural hydraulic\\ural hydraulic\\orderpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|c:\\users\\alexey\\desktop\\uralhydraulic\\ural hydraulic\\ural hydraulic\\sendpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|solutionrelative:ural hydraulic\\ural hydraulic\\sendpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|c:\\users\\alexey\\desktop\\uralhydraulic\\ural hydraulic\\ural hydraulic\\sendpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|solutionrelative:ural hydraulic\\ural hydraulic\\sendpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|c:\\users\\alexey\\desktop\\uralhydraulic\\ural hydraulic\\ural hydraulic\\orderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|solutionrelative:ural hydraulic\\ural hydraulic\\orderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|c:\\users\\alexey\\desktop\\uralhydraulic\\ural hydraulic\\ural hydraulic\\linkpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|solutionrelative:ural hydraulic\\ural hydraulic\\linkpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|c:\\users\\alexey\\desktop\\uralhydraulic\\ural hydraulic\\ural hydraulic\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B35A3D7-66E1-4D10-A598-CA828A7623FE}|Ural Hydraulic\\Ural Hydraulic\\Ural Hydraulic.csproj|solutionrelative:ural hydraulic\\ural hydraulic\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LinkPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\LinkPage.xaml.cs",
+              "RelativeDocumentMoniker": "Ural Hydraulic\\Ural Hydraulic\\LinkPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\LinkPage.xaml.cs",
+              "RelativeToolTip": "Ural Hydraulic\\Ural Hydraulic\\LinkPage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T18:05:03.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Ural Hydraulic\\Ural Hydraulic\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\MainPage.xaml.cs",
+              "RelativeToolTip": "Ural Hydraulic\\Ural Hydraulic\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T18:05:02.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\OrderPage.xaml.cs",
+              "RelativeDocumentMoniker": "Ural Hydraulic\\Ural Hydraulic\\OrderPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\OrderPage.xaml.cs",
+              "RelativeToolTip": "Ural Hydraulic\\Ural Hydraulic\\OrderPage.xaml.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T18:05:00.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SendPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\SendPage.xaml.cs",
+              "RelativeDocumentMoniker": "Ural Hydraulic\\Ural Hydraulic\\SendPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\SendPage.xaml.cs",
+              "RelativeToolTip": "Ural Hydraulic\\Ural Hydraulic\\SendPage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwKEAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T18:04:59.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SendPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\SendPage.xaml",
+              "RelativeDocumentMoniker": "Ural Hydraulic\\Ural Hydraulic\\SendPage.xaml",
+              "ToolTip": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\SendPage.xaml",
+              "RelativeToolTip": "Ural Hydraulic\\Ural Hydraulic\\SendPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T18:04:51.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\OrderPage.xaml",
+              "RelativeDocumentMoniker": "Ural Hydraulic\\Ural Hydraulic\\OrderPage.xaml",
+              "ToolTip": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\OrderPage.xaml",
+              "RelativeToolTip": "Ural Hydraulic\\Ural Hydraulic\\OrderPage.xaml",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T18:04:50.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Ural Hydraulic\\Ural Hydraulic\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\MainPage.xaml",
+              "RelativeToolTip": "Ural Hydraulic\\Ural Hydraulic\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T18:04:50.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\LinkPage.xaml",
+              "RelativeDocumentMoniker": "Ural Hydraulic\\Ural Hydraulic\\LinkPage.xaml",
+              "ToolTip": "C:\\Users\\Alexey\\Desktop\\UralHydraulic\\Ural Hydraulic\\Ural Hydraulic\\LinkPage.xaml",
+              "RelativeToolTip": "Ural Hydraulic\\Ural Hydraulic\\LinkPage.xaml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T18:04:49.396Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
