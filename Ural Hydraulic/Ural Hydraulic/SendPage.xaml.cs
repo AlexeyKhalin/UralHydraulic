@@ -152,7 +152,7 @@ namespace Ural_Hydraulic
                         MysmtpClient.UseDefaultCredentials = false;
                         MysmtpClient.EnableSsl = true;
                         System.Net.NetworkCredential BasicAuthenticationInfo = new
-                        System.Net.NetworkCredential("uralhydraulicrassylka@mail.ru", "4N0XGfNXcTRmtaMyZ6E0");
+                        System.Net.NetworkCredential("", ""); //ЗДСЬ НУЖНО УКАЗАТЬ ВАШУ ПОЧТУ И КЛЮЧ ДЛЯ ВНЕШНИХ ПРИЛОЖЕНИЙ!!!!!!!!!!!!!!!!!!!!!!!!
                         //Эта хрень называется "пароль для внешних приложений"
                         MysmtpClient.Credentials = BasicAuthenticationInfo;
                         //Letter itself
